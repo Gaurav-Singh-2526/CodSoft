@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+   
+    /* background-color: white; */
+ 
+    
+    text-align: center;
+}
+.container .h1{
+    font-size: 32px;
+    color: white;
+}
+.container .text{
+    width: 300px;
+    height: 400px;
+    margin-top: 8%;
+    margin-left: 36%;
+    position: relative;
+    top: 7%;
+}
+.inp1{
+    border: none;
+    border-bottom: 2px solid red;
+    /* background-color:white; */
+    /* color:black; */
+    width: 250px;
+    outline: none;
+    margin-top: 40px;
+    font-size: 20px;
+
+}
+.inp2{
+    border: none;
+    border-bottom: 2px solid red;
+    background-color:white;
+    color: black;
+    width: 250px;
+    outline: none;
+    margin-top: 40px;
+    font-size: 20px;
+}
+.text button{
+    width: 250px;
+    height: 44px;
+    border: none;
+    border-radius: 25px;
+    font-size: 22px;
+    margin-top: 20px;
+    margin-left: -102px;
+    cursor: pointer;
+    color: black;
+    background-color:aqua;
+
+}
+button:hover{
+    border: 3px solid aqua;
+    color: black;
+    background-color: white;
+    font-size: 20px;
+
+}
+.p1{
+    margin-top: 20px;
+    font-size: 20px;
+    background-color: white;
+}
+.p2{
+    margin-top: 20px;
+    font-size: 20px;
+    background-color: white;
+
+}
+.p2 span{
+    cursor: pointer;
+    color: aqua;
+}
